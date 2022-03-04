@@ -1,0 +1,10 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="VpPhl)qibQ:gD0$|D~Eg">Player</variable><variable type="KIND_SpriteKind" id="@ea/?`-z/b5]8^?KlzV4">Projectile</variable><variable type="KIND_SpriteKind" id=":Iu9zTOE*dzpg6sTI1WF">Food</variable><variable type="KIND_SpriteKind" id="1dY{mM1e=dVufDSB%8!/">Enemy</variable><variable id="PuLN#`CUzTiF]M5B9jyd">mySprite</variable><variable id="ZH.9GC=$R-A?r{vGWDIp">item</variable></variables><block type="pxt-on-start" id="ivh3g{aX|yrrsBE)Rslc" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="=Wv*p3%LDKlv@HmT_Kb."><field name="VAR" id="PuLN#`CUzTiF]M5B9jyd">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="^pO(E}Re.-0q-:f?0l||"><value name="img"><shadow type="screen_image_picker" id="q?xDGg@Kb!OcYRzAGiWB"><field name="img">img`
+5 3 3 3 3 3 3 5 
+3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 
+5 3 3 3 3 3 3 5 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"q?xDGg@Kb!OcYRzAGiWB"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="=3{nsR,LDM%vm]Y]%b*9"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="tilemap_loadMap" id="}WDto^@t@QX+AyUeFN2;"><value name="map"><shadow type="create_overworld_map"><field name="tilemap">tilemap`level1`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level1"}}</data></shadow><block type="create_small_overworld_map" id="NDv;MSOkuk1sifwT%{19"><field name="tilemap">tilemap`level2`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level2"}}</data></block></value></block></next></block></statement></block></xml>
